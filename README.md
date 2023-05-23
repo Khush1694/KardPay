@@ -33,5 +33,3 @@ Demo Video2(implementation of Watson Face detection)  -- https://youtu.be/1RbhwE
 # some Screens
 login screen  
 ![screen12](https://user-images.githubusercontent.com/17751493/30934746-19bb8310-a3ec-11e7-8402-b575e25a5d6f.png)
-
-
