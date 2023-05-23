@@ -22,7 +22,6 @@ To test this feature one can go to profile section of the app and click on the p
 Click on the area of pic to open camera and upload your photo, the app relaunches camera if you click any other photo, which is not having any  
 face it, the demo is shown at this URL https://youtu.be/1RbhwEQB7DY
 
-
 # EndNote  
 Installing APK-- https://github.com/dominicneeraj/KardPay/blob/master/app-release.apk 
 Web API URL--  https://kradapi.herokuapp.com/admin/
