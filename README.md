@@ -17,6 +17,8 @@ The app fully functional with use of server backend hosted at Heroku
 
 # username - guest  
 # password - guest  
+
+
  - 20:--IBM Watson -- used IBM Watson visual recognition service for detection of the face while uploading the profile pic, its avoids and restricts the user from uploading a random pic, only a pic with face in it can be uploaded.  
 To test this feature one can go to profile section of the app and click on the photo on the upper left corner of the phone screen.  
 Click on the area of pic to open camera and upload your photo, the app relaunches camera if you click any other photo, which is not having any  
