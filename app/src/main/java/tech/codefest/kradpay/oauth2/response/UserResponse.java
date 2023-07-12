@@ -7,6 +7,7 @@ public class UserResponse {
     private String userId;
     private String username;
     private String name;
+    private String userFirstName;
 
     public String getEmail() {
         return email;
@@ -38,6 +39,10 @@ public class UserResponse {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+    
+    public void setUserFirstName(String userFirstName) {
+        this.userFirstName = userFirstName; /* <=== java.lang.String */ 
     }
 
     private String email;
