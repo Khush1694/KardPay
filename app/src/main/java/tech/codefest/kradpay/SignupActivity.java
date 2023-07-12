@@ -61,6 +61,7 @@ public class SignupActivity extends AppCompatActivity {
         progressDialog.show();
         SignUpRequest signUpRequest = new SignUpRequest();
         signUpRequest.setClient_id(CLIENT_ID);
+        signUpRequest.setUserFirstName(USER_FIRST_NAME);
         signUpRequest.setClient_secret(CLIENT_SECRET);
         signUpRequest.setEmail(txtEmail.getText().toString());
         signUpRequest.setFirst_name(txtFirstName.getText().toString());

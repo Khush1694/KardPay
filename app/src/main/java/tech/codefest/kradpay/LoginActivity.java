@@ -75,6 +75,7 @@ public class LoginActivity extends AppCompatActivity {
         accessTokenRequest.setClient_id(OauthConstant.CLIENT_ID);
         accessTokenRequest.setClient_secret(OauthConstant.CLIENT_SECRET);
         accessTokenRequest.setGrant_type("password");
+        accessTokenRequest.setFirstName(OauthConstant.USER_FIRST_NAME)
         accessTokenRequest.setUsername(txtUsernameSignIn.getText().toString());
         accessTokenRequest.setPassword(txtPasswordSignIn.getText().toString());
         OauthService service = new OauthService();

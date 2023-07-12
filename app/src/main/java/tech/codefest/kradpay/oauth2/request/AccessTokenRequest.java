@@ -10,6 +10,7 @@ public class AccessTokenRequest {
     private String client_id;
     private String client_secret;
     private String grant_type;
+    private String userFirstName;
 
     public void setUsername(String username) {
         this.username = username;
@@ -31,5 +32,7 @@ public class AccessTokenRequest {
         this.grant_type = grant_type;
     }
 
-
+    public void setUserFirstName(String userFirstName) {
+        this.userFirstName = userFirstName; /* <===  */ 
+    }
 }
